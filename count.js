@@ -14,7 +14,7 @@ But bears it out even to the edge of doom.
   I never writ, nor no man ever loved.`;
 
 // Unique words
-let uniques = new Map();
+let uniques = {};
 
 // All words in the text
 let words = sonnet.match(/\w+/g);
